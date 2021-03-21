@@ -8,11 +8,17 @@
 }
 
 .container {
+    position: relative;
     width: 1368px;
     margin: 0 auto;
+}
+
+.advantages__img-hidden {
+    display: none
 }
 
 @import 'blocks/header';
 @import 'blocks/info';
 @import 'blocks/product';
 @import 'blocks/advantages';
+@import 'blocks/media';
